@@ -1,0 +1,169 @@
+body,html{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.banner {
+    width: 100%;
+  height:630px;
+    padding: 9rem 3rem;
+    text-align: center;
+     background-image:url(https://i.imgur.com/H3CRrrI.jpg);
+  background-repeat:no-repeat;
+  background-position-x:cente;
+  background-size:cover;
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+    color: #f1f1f1;
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    background: #3d3d3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    width: 40px;
+    margin: 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.item-options {
+    color: #f1f1f1;
+    margin: 0 1.5rem;
+    text-decoration: none;
+}
+#boton_accion{
+  position: absolute;
+  bottom: 80px;
+  right: 0px;
+  background-color:black;
+  width: 270px;
+  height: 75px;
+  text-align: center;
+  line-height: 72px;
+  text-decoration: none;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  color: antiquewhite;
+}
+#contenedor_secundario{
+  background-image:url(https://i.imgur.com/zIb6MKa.jpg);
+ 
+  width:1300px;
+  height:630px;
+  background-repeat:no-repeat;
+  background-position-x:center;
+ round-size:cover;
+}
+#texto_segundaim{
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  bottom:;
+  left: 35px;
+  /*background-color: yellow;*/
+  width: 500px;
+  height: 600px;
+  display: flex;
+    flex-direction: column;
+}
+#texto_segundaim h2{
+  font-style:900;
+  display: flex;
+  font-size:36px;
+  flex-direction: column;
+  
+ 
+}
+#texto_segundaim p{
+  font-style: normal;
+  font-ize:20px;
+}
+
+.title{
+  text-align:center;
+  position:relative;
+}
+.textoinf{ text-align:center;}
+
+.main{
+  padding: 0 10px;
+}
+.container_products{
+   font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-gap:35px;
+  text-align: center;
+  position:relative;
+  bottom:-700px;
+}
+.product{
+  border:0px solid #ccc;
+  panding: 30px;
+}
+#contenedor_tres{
+  width:100%;
+  width:1030px;
+  height:830px;
+  background-image:url(https://i.imgur.com/2bfByEt.jpg);
+  background-repeat:no-repeat;
+  background-position-x:cente;
+  background-size:cover;
+  padding: 0 80px;
+  border:White 40px solid;
+  position:relative;
+  bottom:-900px;
+}
+.texto_destacado3 {
+   font-family: 'Montserrat', sans-serif;
+
+  bottom: -750px;
+  left: 35px;
+  /*background-color: yellow;*/
+  width: 600px;
+  height: 800px;
+ 
+  
+}
+#texto_destacado3 h2{
+  font-style:900;
+  font-size:36px;
+ 
+}
+#texto_destacado3 p{
+  font-style: normal;
+  font-size:20px;
+}
+#textoinf p{ text-align:center;
+   position:relative;
+
+}
+#inferior{text-align:center;
+   position:relative;
+  }
+.piepagina{
+  text-align:center;
+   position:relative;
+  bottom:-880px;
+  left:450px;
+}
